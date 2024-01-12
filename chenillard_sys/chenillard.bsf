@@ -51,7 +51,7 @@ refer to the applicable agreement for further details.
 		(text "export" (rect 213 107 462 224)(font "Arial" (color 0 0 0)))
 		(text "reset" (rect 179 123 388 259)(font "Arial" (color 128 0 0)(font_size 9)))
 		(text "reset_n" (rect 213 147 468 304)(font "Arial" (color 0 0 0)))
-		(text " chenillard " (rect 437 168 946 346)(font "Arial" ))
+		(text " system " (rect 445 168 938 346)(font "Arial" ))
 		(line (pt 208 32)(pt 272 32)(line_width 1))
 		(line (pt 272 32)(pt 272 168)(line_width 1))
 		(line (pt 208 168)(pt 272 168)(line_width 1))
