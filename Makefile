@@ -139,10 +139,10 @@ ACDS_VERSION := 18.1
 # Define path to the application ELF. 
 # It may be used by the makefile fragments so is defined before including them. 
 # 
-ELF := cheche_IRQ.elf
+ELF := checheIRQ.elf
 
 # Paths to C, C++, and assembly source files.
-C_SRCS += ../cheche_IRQ.c
+C_SRCS += checheIRQ.c
 CXX_SRCS :=
 ASM_SRCS :=
 
@@ -180,7 +180,7 @@ CRT0 :=
 SYS_LIB :=
 
 # Define path to the root of the BSP.
-BSP_ROOT_DIR := ../BSP
+BSP_ROOT_DIR := software_part/BSP/
 
 # List of application specific include directories, library directories and library names
 APP_INCLUDE_DIRS :=
