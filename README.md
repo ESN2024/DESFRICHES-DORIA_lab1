@@ -10,10 +10,10 @@ Les Leds seront alors définies en sorties, et les sources d'inerruptions en ent
 # Création d'une structure NIOSII standard
 ## Schéma du système
 
-![Image non chargée...](C:\intelFPGA_lite\18.1\TP1\schema_systeme.png)
+![Image non chargée...](C:/intelFPGA_lite/18.1/TP1/schema_systeme.png)
 
 ## Modèle QSYS sur platform designer
-![Image non chargée...](C:\intelFPGA_lite\18.1\TP1\qsys.png)
+![Image non chargée...](C:/intelFPGA_lite/18.1/TP1/qsys.png)
 
 Sur QPlatform designer la démarche à suivre est la celle ci-dessous:
 - Ajouter un processeur NIOS II pour l'exécutions des programmes en c
@@ -26,7 +26,7 @@ Sur QPlatform designer la démarche à suivre est la celle ci-dessous:
 Une fois que le modèle QSYS est généré, il faut faire l'analyse sur Quartus pour ensuite associer les Leds, PB et switchs, au PIOs définis sur le modèle QSYS.
 
 ## Pin Planner
-![Image non chargée...](C:\intelFPGA_lite\18.1\TP1\pin_planner.png)
+![Image non chargée...](C:/intelFPGA_lite/18.1/TP1/pin_planner.png)
 Chaque périphérique a un nom précis que l'on trouve sur le datasheet de la carte DE10-Lite. Il suffit alors d'associer les éléments à leur nom correspondant.
 
 # Terminal de commande NIOSII
