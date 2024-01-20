@@ -38,3 +38,10 @@ Distinguons bien les différentes parties de ce code:
 - ***irqhandler_bp_key1*** est la routine d'interrupion qui a pour rôle d'allumer les Leds à la suite pour réliser le chenillard, lors de l'appui sur le bouton poussoir. A la fin de l'exécution, l'interrupt flag est réinitialisé et on sort de la routine.
 - ***irqhandler_switchs*** est la routine d'interruption qui prend en compte la combinaison binaire que forment les switchs. Le délai d'attente entre l'allumage de deux leds va alors être divisé par cette combinaison lors d'un nouvel appui sur le BP.
 - ***main()*** fontion principale dans laquelle on autorise les interruptions en réinitialisant leur flag notemment.
+
+-   *IOWR_ALTERA_AVALON_PIO_IRQ_MASK(PIO_2_BASE, 0x0F);* cette ligne permet de configurer un masque sur le PIO en utilisant uniquement les 4 premiers switchs
+-   *IOWR_ALTERA_AVALON_PIO_EDGE_CAP(PIO_2_BASE, 0x0F);* cette ligne nous permet de configurer l'envoi d'une interruption lors d'un changement d'état d'un switch.
+-   *alt_irq_register()* cette fonction permet d'inscrire les routines d'interruptions dans le gestionnaire d'interruption
+
+# Conclusion
+Ce TP est un bon moyen de comprendre la conception conjointe, en alliant processeur et entrées/sorties du FPGA. La prochaine étape lors du TP suivant sera de faire concorder un script c avec un fichier VHDL pour permettre au NIOSII de communiquer avec le une fonction du FPGA.
