@@ -9,10 +9,12 @@ Les Leds seront alors définies en sorties, et les sources d'inerruptions en ent
 
 # Création d'une structure NIOSII standard
 ## Schéma du système
-![Alt text](schema_systeme-1.png)
+![schema_systeme-1](https://github.com/ESN2024/DESFRICHES-DORIA_lab1/assets/152646071/59d1c49f-49ec-428a-9c86-a87eaae9fc5e)
+
 
 ## Modèle QSYS sur platform designer
-![Alt text](qsys-1.png)
+![qsys-1](https://github.com/ESN2024/DESFRICHES-DORIA_lab1/assets/152646071/ef97dbaf-9808-48ef-bf81-142e98cf2f28)
+
 
 ### Explication
 Sur QPlatform designer la démarche à suivre est la celle ci-dessous:
@@ -26,7 +28,8 @@ Sur QPlatform designer la démarche à suivre est la celle ci-dessous:
 Une fois que le modèle QSYS est généré, il faut faire l'analyse sur Quartus pour ensuite associer les Leds, PB et switchs, au PIOs définis sur le modèle QSYS.
 
 ## Pin Planner
-![Alt text](pin_planner-1.png)
+![pin_planner-1](https://github.com/ESN2024/DESFRICHES-DORIA_lab1/assets/152646071/18b209f4-a726-4495-83e9-4a5966475dd7)
+
 
 ### Explication
 Chaque périphérique a un nom précis que l'on trouve sur le datasheet de la carte DE10-Lite. Il suffit alors d'associer les éléments à leur nom correspondant.
